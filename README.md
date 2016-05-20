@@ -51,6 +51,10 @@ Right now it demonstrates this incident mangement cycle:
 
 > lib/index.js is exposed as `context.global.lib` inside a script-node (in the editor)
 
+## Storage
+
+You can easily swap storage (SQL/Mongodb/Redis/etc), see [flowee docs](http://flowee.isvery.ninja)
+
 ## Notes 
 
 * you need to enable security in `config/webhook.js` (see [node-red](https://npmjs.org/package/node-red) for more info )
