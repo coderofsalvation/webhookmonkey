@@ -90,19 +90,6 @@
           }
         }  
       }, 
-      post: {
-        schema: {
-          date: {
-            type: Number
-          }, 
-          mimetype: {
-            type: String
-          }, 
-          content: {
-            type: String
-          }
-        }
-      }, 
       incident: {
         schema: {
           service: {
@@ -111,9 +98,8 @@
           title: {
             type: String
           }, 
-          posts: {
-            link: 'post', 
-            isArray: true
+          data: {
+            type: Object
           }
         }
       }
