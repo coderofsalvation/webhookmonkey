@@ -1,0 +1,28 @@
+{
+  "name": "incidental",
+  "version": "1.0.0",
+  "description": "Incidental, a webhook aggregation platform",
+  "main": "server.webhooks.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "dependencies": {
+    "flowee": "^1.0.27",
+    "node-red": "^0.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderofsalvation/incidental.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderofsalvation/incidental/issues"
+  },
+  "homepage": "https://github.com/coderofsalvation/incidental#readme"
+}
