@@ -16,8 +16,7 @@ Incidental, a webhook aggregation platform
 
 ## Usage
 
-    $ node server.api.js
-    $ node server.webhooks.js
+    $ PORT_WEBHOOKS=3001 PORT_API=3000 node server.js
 
 ## Features
 
