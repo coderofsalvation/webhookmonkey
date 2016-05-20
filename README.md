@@ -1,4 +1,4 @@
-A webhook broker, aggregator and router to prevent notification- and webhook-spaghetti.
+Prevent notification- and webhook-spaghetti: a broker, aggregator and router for webhooks and incidents. 
 
 \![Build Status](https://travis-ci.org/username/reponame.svg?branch=master)
 
