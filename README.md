@@ -1,3 +1,4 @@
+<img src="doc/logo.png" width="20%"/>
 Prevent notification- and webhook-spaghetti: a broker, aggregator and router for webhooks and incidents. 
 
 \![Build Status](https://travis-ci.org/username/reponame.svg?branch=master)
@@ -25,6 +26,10 @@ Prevent notification- and webhook-spaghetti: a broker, aggregator and router for
 * visually aggregate & organize webhooks
 * store incidents,metrics in storage api using REST
 * REST api perfect to integrate in backends
+
+Incidental does not force you to centralize your infrastructure, it just sits in the sweet spot:
+
+<img src="doc/sweetspot.png" width="90%"/>
 
 ## The api & editor
 
