@@ -1,4 +1,4 @@
-Ever experienced webhookjungle or notificationjungle? Here's an aggregator/router to prevent that.
+A webhook broker, aggregator and router to prevent notification- and webhook-spaghetti.
 
 \![Build Status](https://travis-ci.org/username/reponame.svg?branch=master)
 
@@ -9,7 +9,7 @@ Ever experienced webhookjungle or notificationjungle? Here's an aggregator/route
             ^                                ^
             |                                |
             |                                |
-          http                             webhooks
+      manage history                      webhooks
                                       github/bb/apps/servers/SaaS
 
 <img src="doc/webhooks.png" width="45%"/>
