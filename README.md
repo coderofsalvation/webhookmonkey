@@ -1,4 +1,4 @@
-Incidental, a webhook aggregator/router to prevent webhookjungle
+Ever experienced webhookjungle? Here's a webhook aggregator/router to prevent that.
 
 \![Build Status](https://travis-ci.org/username/reponame.svg?branch=master)
 
@@ -17,7 +17,7 @@ Incidental, a webhook aggregator/router to prevent webhookjungle
 
 ## Usage
 
-    $ PORT_WEBHOOKS=3001 PORT_API=3000 node app.js
+    $ PORT_WEBHOOKS=3001 PORT_API=3000 API_URL="http://localhost:3000" node app.js
 
 ## Features
 
@@ -29,7 +29,7 @@ Incidental, a webhook aggregator/router to prevent webhookjungle
 ## The api & editor
 
 * The api documentation is generated at `http://localhost:3000`
-* The webhook editor can be visited at `http://localhost:3001`
+* The [webhook editor](https://npmjs.org/package/node-red) can be visited at `http://localhost:3001`
 
 By default, the api is just an simple example of incident storage, which the webhook 
 editor orchestrates.
@@ -38,3 +38,6 @@ Right now it demonstrates this incident mangement cycle:
 
 <img src="doc/incidents.png"/>
 
+## Notes 
+
+* you need to enable security in `config/webhook.js` (see [node-red](https://npmjs.org/package/node-red) for more info )

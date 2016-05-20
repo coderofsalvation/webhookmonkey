@@ -115,7 +115,7 @@ module.exports = (function(){
       settings.httpNodeAuth = settings.httpNodeAuth || settings.httpAuth;
   }
 
-  settings.uiPort = parsedArgs.port||settings.uiPort||1880;
+  settings.uiPort = process.env.PORT_WEBHOOKS ||3001;
   settings.uiHost = settings.uiHost||"0.0.0.0";
 
   settings.flowFile = __dirname+"/../db/webhooks.json"

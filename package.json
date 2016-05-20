@@ -11,7 +11,8 @@
     "flowee": "^1.0.27",
     "fortune-json-api": "^2.0.5",
     "nedb": "^1.8.0",
-    "node-red": "^0.13.4"
+    "node-red": "^0.13.4",
+    "swagger-client": "^2.1.14"
   },
   "devDependencies": {},
   "scripts": {
