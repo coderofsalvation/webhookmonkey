@@ -1,5 +1,5 @@
-<img src="doc/logo.png" width="20%"/>
-Prevent notification- and webhook-spaghetti: a broker, aggregator and router for webhooks and incidents. 
+<img src="doc/logo.png" width="20%"/><br>
+Prevent notification- and webhook-spaghetti: a broker, aggregator and router for webhooks.
 
 \![Build Status](https://travis-ci.org/username/reponame.svg?branch=master)
 
@@ -23,9 +23,9 @@ Prevent notification- and webhook-spaghetti: a broker, aggregator and router for
 ## Features
 
 * visually glue microservices together
-* visually aggregate & organize webhooks
-* store incidents,metrics in storage api using REST
-* REST api perfect to integrate in backends
+* finally visually aggregate & organize webhooks
+* extract events and incidents from webhooks into api DB (REST)
+* perfect to integrate in backends (REST)
 
 Incidental does not force you to centralize your infrastructure, it just sits in the sweet spot:
 
@@ -36,12 +36,13 @@ Incidental does not force you to centralize your infrastructure, it just sits in
 * The api documentation is generated at `http://localhost:3000/doc`, and a swagger url at `http://localhost:3000/model`
 * The [webhook editor](https://npmjs.org/package/node-red) can be visited at `http://localhost:3001`
 
-By default, the api is just an simple example of incident storage, which the webhook 
-editor orchestrates.
-However, it can be extended to do much more.
-Right now it demonstrates this incident mangement cycle:
+By default, the api is just simple storage of simple example of event/incident storage.
+The webhook editor applies some example logic.
+Right now it extracts incidents from webhooks or ping-fails like so:
 
 <img src="doc/incidents.png"/>
+
+However, in the scriptable editor allows you to extend it with any (js) logic.
 
 ## Doing api requests
 
