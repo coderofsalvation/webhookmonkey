@@ -68,10 +68,14 @@
           }, 
           mobile: {
             type: Number
-          }
+          }, 
+          topics: {
+            link: 'topic', 
+            isArray: true
+          }, 
         }
       }, 
-      tags: {
+      topic: {
         schema: {
           name:{
             type: String
