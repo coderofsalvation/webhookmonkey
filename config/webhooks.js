@@ -1,4 +1,3 @@
-
 module.exports = {
     /**
      * Copyright 2013, 2015 IBM Corp.
@@ -152,6 +151,7 @@ module.exports = {
     //    context.global.os
 
     functionGlobalContext: {
+        lib:require( __dirname + '/../lib/index.js' )
         // os:require('os'),
         // octalbonescript:require('octalbonescript'),
         // jfive:require("johnny-five"),

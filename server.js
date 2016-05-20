@@ -70,7 +70,7 @@ if (parsedArgs.argv.remain.length > 0) {
     flowFile = parsedArgs.argv.remain[0];
 }
 
-var settingsFile = "./data/webhooks.json"
+var settingsFile = "./config/webhooks.js"
 
 try {
     var settings = require(settingsFile);
