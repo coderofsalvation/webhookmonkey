@@ -1,4 +1,4 @@
-Incidental, a webhook aggregation platform, prevent webhookjungle
+Incidental, a webhook aggregator/router to prevent webhookjungle
 
 \![Build Status](https://travis-ci.org/username/reponame.svg?branch=master)
 
