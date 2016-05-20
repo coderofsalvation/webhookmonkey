@@ -21,7 +21,5 @@ Incidental, a webhook aggregation platform
 
 ## Features
 
-* modular free nodejs alternative to pagerduty, cachet, watchmen, bigpanda, etc
 * visually glue microservices together
-* incident and escalation management 
-
+* visually aggregate & organize webhooks
