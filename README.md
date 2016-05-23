@@ -1,7 +1,10 @@
-Prevent webhook-spaghetti: webhook patching and monitoring (using google analytics events).
-Comes with api and editor to easily broke, aggregate and route webhooks.
+<<<<<<< HEAD
+<img src="doc/logo.png" width="15%"/><br>
 
 > "We've managed to automate everything using webhooks..I think"
+
+Prevent webhook-spaghetti: webhook patching and monitoring (using google analytics events).
+Comes with api and editor to easily broke, aggregate and route webhooks.
 
 \![Build Status](https://travis-ci.org/username/reponame.svg?branch=master)
 
@@ -28,20 +31,26 @@ Incidental is focusing on webhook monitoring & webhook patching.
 For __microservice__ monitoring check [TRACE](https://trace.risingstack.com/)
 
 * visually glue microservices together
-* visually aggregate & organize webhooks
-* store incidents,metrics in storage api using REST
-* REST api perfect to integrate in backends
+* finally visually aggregate & organize webhooks
+* extract events and incidents from webhooks into api DB (REST)
+* perfect to integrate in backends (REST)
+
+Incidental does not force you to centralize your infrastructure, it just sits in the sweet spot:
+
+<img src="doc/sweetspot.png" width="90%"/>
 
 ## The api & editor
 
 * The api documentation is generated at `http://localhost:3000/doc`, and a swagger url at `http://localhost:3000/model`
 * The [webhook editor](https://npmjs.org/package/node-red) can be visited at `http://localhost:3001`
 
-By default, the api is just an simple example of incident & history storage, which the webhook 
-editor can extend on.
-Right now it demonstrates this incident & history cycle:
+By default, the api is just simple storage of simple example of event/incident storage.
+The webhook editor applies some example logic.
+Right now it extracts incidents from webhooks or ping-fails like so:
 
 <img src="doc/incidents.png"/>
+
+However, in the scriptable editor allows you to extend it with any (js) logic.
 
 ## Doing api requests
 
