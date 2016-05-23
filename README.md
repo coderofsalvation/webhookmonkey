@@ -8,18 +8,18 @@ Comes with api and editor to easily broke, aggregate and route webhooks.
 
 \![Build Status](https://travis-ci.org/username/reponame.svg?branch=master)
 
-<img src="doc/webhooks.png" width="45%"/>
 <img src="doc/api.png" width="45%" align="right"/>
+<img src="doc/webhooks.png" width="45%"/>
 
 
-    +------------------+        +---------------------------+
-    | storage api      |<------>| modular webhook platform  |------> IFTTT/Zapier/servers/Ganalytics/etc
-    +------------------+        +---------------------------+
-            ^                                ^
-            |                                |
-            |                                |
-      manage history                      webhooks
-                                      github/bb/apps/servers/SaaS
+    +------------------+                           +---------------------------+
+    | storage api      |<------------------------->| modular webhook platform  |------> IFTTT
+    +------------------+                           +---------------------------+        Zapier
+            ^                                                   ^                       server A/B/C
+            |                                                   |                       Ganalytics
+            |                                                   |                       etc
+      manage history                                         webhooks
+                                                         github/bb/apps/servers/SaaS
 
 
 ## Usage
