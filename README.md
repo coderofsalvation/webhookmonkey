@@ -40,6 +40,8 @@ Webhookmonkey does not force you to centralize your infrastructure, it just sits
 
 <img src="doc/sweetspot.png" width="90%"/>
 
+<img src="doc/concept.png"/>
+
 ## The api & editor
 
 * The api documentation is generated at `http://localhost:3000/doc`, and a swagger url at `http://localhost:3000/model`
@@ -49,8 +51,6 @@ By default, the api is just simple storage of webhook-history & incidents.
 The webhook editor applies some example logic to the api.
 However, this editor allows you to extend it with any (js) logic.
 This is how webhookmonkey can be used in your multi-service environmnent:
-
-<img src="doc/concept.png"/>
 
 Right now it extracts incidents from webhooks, or generates them:
 
