@@ -1,5 +1,6 @@
-<img src="doc/logo.jpg" width="50%"/><br>
-<img src="doc/logo.png" width="10%"/><br>
+<img src="doc/logo.jpg" style="width:25%" align="left"/>
+<img src="doc/logo.png" style="width:10%" align="right"/><br>
+<br>
 
 > "We've managed to automate everything using webhooks..I think"
 
