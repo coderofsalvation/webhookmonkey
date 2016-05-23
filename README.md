@@ -1,4 +1,4 @@
-<img src="doc/logo.png" width="10%"/><BR>
+<img src="doc/logo.jpg" width="10%"/><BR>
 
 > "We've managed to automate everything using webhooks..I think"
 
