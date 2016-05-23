@@ -1,7 +1,7 @@
 <img src="doc/logo.jpg" width="25%"/>
 <br>
 
-> "We've managed to automate everything using webhooks..I think"
+> "We've managed to automate everything using webhooks..at least I think"
 
 Prevent webhook-spaghetti: webhook patching and monitoring (using google analytics events).
 Comes with api and editor to easily broke, aggregate and route webhooks.
