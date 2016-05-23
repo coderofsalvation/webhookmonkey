@@ -16,6 +16,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "postinstall": "ln -fs `pwd`/doc node_modules/flowee-doc/node_modules/swagger-ui/dist/.", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -1,10 +1,13 @@
-Prevent notification- and webhook-spaghetti: a broker, aggregator and router for webhooks and incidents. 
+Prevent webhook-spaghetti: webhook patching and monitoring (using google analytics events).
+Comes with api and editor to easily broke, aggregate and route webhooks.
+
+> "We've managed to automate everything using webhooks..I think"
 
 \![Build Status](https://travis-ci.org/username/reponame.svg?branch=master)
 
 
     +------------------+        +---------------------------+
-    | storage api      |<------>| modular webhook platform  |------> IFTTT/Zapier/servers/etc
+    | storage api      |<------>| modular webhook platform  |------> IFTTT/Zapier/servers/Ganalytics/etc
     +------------------+        +---------------------------+
             ^                                ^
             |                                |
@@ -21,6 +24,9 @@ Prevent notification- and webhook-spaghetti: a broker, aggregator and router for
 
 ## Features
 
+Incidental is focusing on webhook monitoring & webhook patching. 
+For __microservice__ monitoring check [TRACE](https://trace.risingstack.com/)
+
 * visually glue microservices together
 * visually aggregate & organize webhooks
 * store incidents,metrics in storage api using REST
@@ -31,10 +37,9 @@ Prevent notification- and webhook-spaghetti: a broker, aggregator and router for
 * The api documentation is generated at `http://localhost:3000/doc`, and a swagger url at `http://localhost:3000/model`
 * The [webhook editor](https://npmjs.org/package/node-red) can be visited at `http://localhost:3001`
 
-By default, the api is just an simple example of incident storage, which the webhook 
-editor orchestrates.
-However, it can be extended to do much more.
-Right now it demonstrates this incident mangement cycle:
+By default, the api is just an simple example of incident & history storage, which the webhook 
+editor can extend on.
+Right now it demonstrates this incident & history cycle:
 
 <img src="doc/incidents.png"/>
 
