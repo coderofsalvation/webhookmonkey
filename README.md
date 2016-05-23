@@ -12,14 +12,14 @@ Comes with api and editor to easily broke, aggregate and route webhooks.
 <img src="doc/webhooks.png" width="45%"/>
 
 
-    +------------------+                           +---------------------------+
-    | storage api      |<------------------------->| modular webhook platform  |------> IFTTT
-    +------------------+                           +---------------------------+        Zapier
-            ^                                                   ^                       server A/B/C
-            |                                                   |                       Ganalytics
-            |                                                   |                       etc
-      manage history                                         webhooks
-                                                         github/bb/apps/servers/SaaS
+    +------------------+        +---------------------------+
+    | storage api      |<------>| modular webhook platform  |------> IFTTT
+    +------------------+        +---------------------------+        Zapier
+            ^                                ^                       server A/B/C
+            |                                |                       Ganalytics
+            |                                |                       etc
+      manage history                      webhooks
+                                      github/bb/apps/servers/SaaS
 
 
 ## Usage
