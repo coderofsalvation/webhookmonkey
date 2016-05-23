@@ -2,17 +2,17 @@
     'swagger': '2.0',
     'info': {
       'version': '1.0.0',
-      'title': 'Incidental API',
-      'description': '<a href="./doc/incidental-concept.png" target="_blank"><img src="./doc/incidental-concept.png" style="width:300px"/></a><a href="./doc/seq.png" target="_blank"><img src="./doc/seq.png" style="width:300px"/></a>', 
+      'title': 'Webhookmonkey API',
+      'description': '<a href="./doc/concept.png" target="_blank"><img src="./doc/concept.png" style="width:300px"/></a><a href="./doc/seq.png" target="_blank"><img src="./doc/seq.png" style="width:300px"/></a>', 
       'termsOfService': 'http://swagger.io/terms/',
       'contact': {
-        'name': 'Incidental'
+        'name': 'Webhookmonkey'
       },
       'license': {
         'name': 'MIT'
       }
     },
-    'host': 'yourdomain.io', 
+    'host': 'http://localhost:3000', 
     'basePath': '/api',
     'schemes': ['http'],
     'consumes': ['application/vnd.api+json', 'application/json'],

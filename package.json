@@ -1,7 +1,7 @@
 {
-  "name": "incidental",
+  "name": "webhookmon",
   "version": "1.0.0",
-  "description": "Incidental, a webhook aggregation platform",
+  "description": "Webhookmon, a webhook patching & monitoring (using google analytics) platform",
   "main": "server.webhooks.js",
   "directories": {
     "doc": "doc",
@@ -22,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coderofsalvation/incidental.git"
+    "url": "git+https://github.com/coderofsalvation/webhookmon.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coderofsalvation/incidental/issues"
+    "url": "https://github.com/coderofsalvation/webhookmon/issues"
   },
-  "homepage": "https://github.com/coderofsalvation/incidental#readme"
+  "homepage": "https://github.com/coderofsalvation/webhookmon#readme"
 }

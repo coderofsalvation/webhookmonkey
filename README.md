@@ -1,3 +1,4 @@
+<img src="doc/logo.jpg" width="50%"/><br>
 <img src="doc/logo.png" width="10%"/><br>
 
 > "We've managed to automate everything using webhooks..I think"
@@ -6,6 +7,9 @@ Prevent webhook-spaghetti: webhook patching and monitoring (using google analyti
 Comes with api and editor to easily broke, aggregate and route webhooks.
 
 \![Build Status](https://travis-ci.org/username/reponame.svg?branch=master)
+
+<img src="doc/webhooks.png" width="45%"/>
+<img src="doc/api.png" width="45%" align="right"/>
 
 
     +------------------+        +---------------------------+
@@ -17,8 +21,6 @@ Comes with api and editor to easily broke, aggregate and route webhooks.
       manage history                      webhooks
                                       github/bb/apps/servers/SaaS
 
-<img src="doc/webhooks.png" width="45%"/>
-<img src="doc/api.png" width="45%" align="right"/>
 
 ## Usage
 
@@ -26,7 +28,7 @@ Comes with api and editor to easily broke, aggregate and route webhooks.
 
 ## Features
 
-Incidental is focusing on webhook monitoring & webhook patching. 
+Webhookmonkey is focusing on webhook monitoring & webhook patching. 
 For __microservice__ monitoring check [TRACE](https://trace.risingstack.com/)
 
 * visually glue microservices together
@@ -34,7 +36,7 @@ For __microservice__ monitoring check [TRACE](https://trace.risingstack.com/)
 * extract events and incidents from webhooks into api DB (REST)
 * perfect to integrate in backends (REST)
 
-Incidental does not force you to centralize your infrastructure, it just sits in the sweet spot:
+Webhookmonkey does not force you to centralize your infrastructure, it just sits in the sweet spot:
 
 <img src="doc/sweetspot.png" width="90%"/>
 
@@ -46,11 +48,11 @@ Incidental does not force you to centralize your infrastructure, it just sits in
 By default, the api is just simple storage of webhook-history & incidents.
 The webhook editor applies some example logic to the api.
 However, this editor allows you to extend it with any (js) logic.
-This is how incidental can be used in your multi-service environmnent:
+This is how webhookmonkey can be used in your multi-service environmnent:
 
-<img src="doc/incidental-concept.png"/>
+<img src="doc/concept.png"/>
 
-Right now it extracts incidents from webhooks or ping-fails like so:
+Right now it extracts incidents from webhooks, or generates them:
 
 <img src="doc/seq.png"/>
 
