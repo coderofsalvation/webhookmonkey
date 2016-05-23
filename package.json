@@ -1,8 +1,8 @@
 {
   "name": "webhookmon",
   "version": "1.0.0",
-  "description": "Webhookmon, a webhook patching & monitoring (using google analytics) platform",
-  "main": "server.webhooks.js",
+  "description": "Webhookmonitor, a webhook monkeypatching & monitoring (using google analytics) platform",
+  "main": "app.js",
   "directories": {
     "doc": "doc",
     "test": "test"
@@ -22,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coderofsalvation/webhookmon.git"
+    "url": "git+https://github.com/coderofsalvation/webhookmonkey.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coderofsalvation/webhookmon/issues"
+    "url": "https://github.com/coderofsalvation/webhookmonkey/issues"
   },
-  "homepage": "https://github.com/coderofsalvation/webhookmon#readme"
+  "homepage": "https://github.com/coderofsalvation/webhookmonkey#readme"
 }
