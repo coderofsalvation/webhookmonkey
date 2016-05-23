@@ -151,7 +151,7 @@ module.exports = {
     //    context.global.os
 
     functionGlobalContext: {
-        lib:require( __dirname + '/../lib/index.js' )
+        lib:require( __dirname + '/../lib/index.js' ), 
         // os:require('os'),
         // octalbonescript:require('octalbonescript'),
         // jfive:require("johnny-five"),

@@ -1,4 +1,4 @@
-module.exports = (function(){
+module.exports = function(cb){
 
   var redpath = "./../node_modules/node-red"
   var nodepath = redpath+"/node_modules/"
@@ -223,6 +223,7 @@ module.exports = (function(){
               }
               process.title = 'node-red';
               RED.log.info(RED.log._("server.now-running", {listenpath:getListenPath()}));
+              cb(settings.functionGlobalContext.lib)
           });
       } else {
           RED.log.info(RED.log._("server.headless-mode"));
@@ -254,4 +255,5 @@ module.exports = (function(){
       process.exit();
   });
 
-})()
+
+}

@@ -114,12 +114,28 @@
           }
         }
       }, 
-      incident: {
+      event: {
         schema: {
           service: {
             type: String
           }, 
-          title: {
+          event: {
+            type: String
+          }, 
+          label: {
+            type: String
+          }, 
+          value: {
+            type: Number
+          }, 
+          data: {
+            type: Object
+          }
+        }
+      }, 
+      incident: {
+        schema: {
+          service: {
             type: String
           }, 
           data: {
