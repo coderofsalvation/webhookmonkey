@@ -31,8 +31,8 @@ Comes with api and editor to easily broke, aggregate and route webhooks.
 Webhookmonkey is focusing on webhook monitoring & webhook patching. 
 For __microservice__ monitoring check [TRACE](https://trace.risingstack.com/)
 
-* visually glue microservices together
-* finally visually aggregate & organize webhooks
+* visually setup and glue webhooks together
+* monitor webhooks as transactions
 * extract events and incidents from webhooks into api DB (REST)
 * perfect to integrate in backends (REST)
 
@@ -47,12 +47,12 @@ Webhookmonkey does not force you to centralize your infrastructure, it just sits
 * The api documentation is generated at `http://localhost:3000/doc`, and a swagger url at `http://localhost:3000/model`
 * The [webhook editor](https://npmjs.org/package/node-red) can be visited at `http://localhost:3001`
 
-By default, the api is just simple storage of webhook-history & incidents.
+By default, the api is just simple storage of webhook-history.
 The webhook editor applies some example logic to the api.
 However, this editor allows you to extend it with any (js) logic.
 This is how webhookmonkey can be used in your multi-service environmnent:
 
-Right now it extracts incidents from webhooks, or generates them:
+Right now it extracts incidents from webhooks, or generate new ones:
 
 <img src="doc/seq.png"/>
 
