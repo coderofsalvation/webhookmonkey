@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<img src="doc/logo.png" width="15%"/><br>
+<img src="doc/logo.png" width="10%"/><br>
 
 > "We've managed to automate everything using webhooks..I think"
 
@@ -44,13 +43,18 @@ Incidental does not force you to centralize your infrastructure, it just sits in
 * The api documentation is generated at `http://localhost:3000/doc`, and a swagger url at `http://localhost:3000/model`
 * The [webhook editor](https://npmjs.org/package/node-red) can be visited at `http://localhost:3001`
 
-By default, the api is just simple storage of simple example of event/incident storage.
-The webhook editor applies some example logic.
+By default, the api is just simple storage of webhook-history & incidents.
+The webhook editor applies some example logic to the api.
+However, this editor allows you to extend it with any (js) logic.
+This is how incidental can be used in your multi-service environmnent:
+
+<img src="doc/incidental-concept.png"/>
+
 Right now it extracts incidents from webhooks or ping-fails like so:
 
-<img src="doc/incidents.png"/>
+<img src="doc/seq.png"/>
 
-However, in the scriptable editor allows you to extend it with any (js) logic.
+or as a state 
 
 ## Doing api requests
 
