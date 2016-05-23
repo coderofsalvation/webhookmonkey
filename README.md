@@ -3,7 +3,7 @@
 
 > "We've managed to automate everything using webhooks..at least I think"
 
-Prevent webhook-spaghetti: webhook patching and monitoring (using google analytics events).
+Prevent webhook-spaghetti: webhook monkeypatching and monitoring (using google analytics events).
 Comes with api and editor to easily broke, aggregate and route webhooks.
 
 \![Build Status](https://travis-ci.org/username/reponame.svg?branch=master)
@@ -28,11 +28,11 @@ Comes with api and editor to easily broke, aggregate and route webhooks.
 
 ## Features
 
-Webhookmonkey is focusing on webhook monitoring & webhook patching. 
+Webhookmonkey is focusing on webhook monitoring & webhook monkeypatching. 
 For __microservice__ monitoring check [TRACE](https://trace.risingstack.com/)
 
 * visually setup and glue webhooks together
-* monitor webhooks as transactions
+* monitor webhooktransactions
 * extract events and incidents from webhooks into api DB (REST)
 * perfect to integrate in backends (REST)
 
