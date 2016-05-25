@@ -13,7 +13,7 @@ Comes with api and editor to easily broke, aggregate and route webhooks.
 
 
     +------------------+        +---------------------------+
-    | storage api      |<------>| modular webhook platform  |------> IFTTT
+    | storage api      |<------>|       flow editor         |------> IFTTT
     +------------------+        +---------------------------+        Zapier
             ^                                ^                       server A/B/C
             |                                |                       Ganalytics
