@@ -8,7 +8,7 @@ Comes with api and editor to easily broke, aggregate and route webhooks.
 
 \![Build Status](https://travis-ci.org/username/reponame.svg?branch=master)
 
-<img src="doc/api.png" width="45%" align="right"/>
+<img src="doc/api.png" width="45%" align="left"/>
 <img src="doc/webhooks.png" width="45%"/>
 
 
