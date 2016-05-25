@@ -8,23 +8,19 @@ Comes with api and editor to easily broke, aggregate and route webhooks.
 
 \![Build Status](https://travis-ci.org/username/reponame.svg?branch=master)
 
-
-## Architecture
-
-    +------------------+        +---------------------------+
-    | storage api      |<------>|       flow editor         |------> IFTTT
-    +------------------+        +---------------------------+        Zapier
-            ^                                ^                       server A/B/C
-            |                                |                       Ganalytics
-            |                                |                       etc
-      manage history                      webhooks
-                                      github/bb/apps/servers/SaaS
-
-> Or in pictures it looks like this:
-
 <img src="doc/api.png" width="45%" align="left"/>
 <img src="doc/webhooks.png" width="45%"/>
 
+
+                webhookmonkey
+       +---------------------------+
+       |   api  +    flow editor   |------> IFTTT
+       +---------------------------+        Zapier
+                    ^                       server A/B/C
+                    |                       Ganalytics
+                    |                       Bitbucket/github 
+                    |                       etc
+                 webhooks <------------------
 
 ## Usage
 
