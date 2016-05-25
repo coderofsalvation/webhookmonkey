@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-require('./server/webhooks.js')( function(handler){
-  require('./server/api.js')(handler)
+var lib = require('./lib')
+require('./server/webhooks.js')(lib, function (lib) {
+  require('./server/api.js')(lib, function () {
+  })
 })
 

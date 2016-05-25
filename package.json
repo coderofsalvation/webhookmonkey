@@ -8,17 +8,19 @@
     "test": "test"
   },
   "dependencies": {
-    "flowee": "^1.0.28",
+    "flowee": "^1.0.29",
     "flowee-doc": "^1.0.2",
     "fortune-json-api": "^2.0.5",
     "fortune-nedb": "^1.1.2",
     "node-red": "^0.13.4",
     "swagger-client": "^2.1.14"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "supertest": "^1.2.0"
+  },
   "scripts": {
-    "postinstall": "ln -fs `pwd`/doc node_modules/flowee-doc/node_modules/swagger-ui/dist/.", 
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "ln -fs `pwd`/doc node_modules/flowee-doc/node_modules/swagger-ui/dist/.",
+    "test": "node test/api.spec.js || exit 1"
   },
   "repository": {
     "type": "git",

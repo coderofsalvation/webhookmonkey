@@ -1,4 +1,4 @@
-module.exports = function(cb){
+module.exports = function(lib, cb){
 
   var redpath = "./../node_modules/node-red"
   var nodepath = redpath+"/node_modules/"
@@ -223,6 +223,7 @@ module.exports = function(cb){
               }
               process.title = 'node-red';
               RED.log.info(RED.log._("server.now-running", {listenpath:getListenPath()}));
+              settings.functionGlobalContext.lib = lib
               cb(settings.functionGlobalContext.lib)
           });
       } else {

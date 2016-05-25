@@ -33,7 +33,7 @@ For __microservice__ monitoring check [TRACE](https://trace.risingstack.com/)
 
 * visually setup and glue webhooks together
 * monitor webhooktransactions
-* extract events and incidents from webhooks into api DB (REST)
+* save webhook history to DB (REST API)
 * perfect to integrate in backends (REST)
 
 Webhookmonkey does not force you to centralize your infrastructure, it just sits in the sweet spot:
@@ -50,13 +50,6 @@ Webhookmonkey does not force you to centralize your infrastructure, it just sits
 By default, the api is just simple storage of webhook-history.
 The webhook editor applies some example logic to the api.
 However, this editor allows you to extend it with any (js) logic.
-This is how webhookmonkey can be used in your multi-service environmnent:
-
-Right now it extracts incidents from webhooks, or generate new ones:
-
-<img src="doc/seq.png"/>
-
-or as a state 
 
 ## Doing api requests
 
