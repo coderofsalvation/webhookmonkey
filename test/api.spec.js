@@ -41,6 +41,7 @@ t.test('all done', function(next) {
 
 require('./../server/webhooks.js')(lib, function (lib) {
   require('./../server/api.js')(lib, function () {
+    lib.init()
     t.run()
   })
 })
