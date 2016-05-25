@@ -32,9 +32,9 @@ Webhookmonkey is focusing on webhook monitoring & webhook monkeypatching.
 For __microservice__ monitoring check [TRACE](https://trace.risingstack.com/)
 
 * visually setup and glue webhooks together
-* monitor webhooktransactions
+* monitor webhook transactions
 * save webhook history to DB (REST API)
-* perfect to integrate in backends (REST)
+* integrate with backoffice thru REST 
 
 Webhookmonkey does not force you to centralize your infrastructure, it just sits in the sweet spot:
 
