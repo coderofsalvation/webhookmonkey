@@ -10,6 +10,16 @@ module.exports = function(lib, cb){
     store: true
   });
 
+  flowee.use(function(req,res,next){
+    //if( !!lib.on ){
+    //  if( req.url == '/event' && req.method == "post" ){
+    //    lib.on('event', req.body )
+    //    console.log( req )
+    //  }
+    //}  
+    next()
+  })
+
   flowee.start(function(server, router) {
     var port;
     port = process.env.PORT_API || 3000;
