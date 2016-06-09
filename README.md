@@ -51,6 +51,10 @@ By default, the api is just simple storage of webhook-history.
 The webhook editor applies some example logic to the api.
 However, this editor allows you to extend it with any (js) logic.
 
+API request example:
+
+    curl -X POST "http://localhost:3000/event" -H 'Content-Type: application/vnd.api+json' --data '{"data":{"type":"event","attributes":{"category":"foo","groupid":"mygroupid","service":"myservice","label":"mylabel","value":5,"data":{}}}}'
+
 ## Doing api requests
 
 * use [swagger-client](https://npmjs.org/package/swagger-client) to easily call the api (using the swagger url, see `lib/index.js`)

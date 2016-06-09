@@ -21,7 +21,7 @@
   },
   "scripts": {
     "postinstall": "ln -fs `pwd`/doc node_modules/flowee-doc/node_modules/swagger-ui/dist/.",
-    "start": "PORT_WEBHOOKS=4001 PORT_API=4000 GANALYTICS_TOKEN=UA-78965379-1 API_URL=http://localhost:4000/model node app.js",
+    "start": "PORT_WEBHOOKS=4001 PORT_API=4000 GANALYTICS_TOKEN=UA-7325379-1 API_URL=http://localhost:4000/model node app.js",
     "test": "node test/api.spec.js || exit 1"
   },
   "repository": {
