@@ -24,7 +24,7 @@ Comes with api and editor to easily broke, aggregate and route webhooks.
 
 ## Usage
 
-    $ PORT_WEBHOOKS=3001 PORT_API=3000 API_URL="http://localhost:3000" node app.js
+    $ PORT_WEBHOOKS=3001 PORT_API=3000 GANALYTICS_TOKEN=X-XXXXXXX API_URL="http://localhost:3000/model" node app.js
 
 ## Features
 
