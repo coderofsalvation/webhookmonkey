@@ -12,7 +12,7 @@
     "flowee-doc": "^1.0.2",
     "fortune-json-api": "^2.0.5",
     "fortune-nedb": "^1.1.2",
-    "node-red": "^0.13.4",
+    "node-red": "^1.0.6",
     "swagger-client": "^2.1.14",
     "universal-analytics": "^0.3.11"
   },
